@@ -473,7 +473,7 @@ ul.features li:nth-child(even) { }
 #call-to-action h1 span { display: none; }
 #call-to-action .header-col h1:before {
    font-family: 'FontAwesome';
-   content: "\f093";
+   content: "\f145";
 	padding-right: 18px;
 	padding-top: 6px;
 	font-size: 72px;
