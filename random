@@ -1,0 +1,25 @@
+<div id="video-sec" class="player" data-property="{videoURL:'https://www.youtube.com/watch?v=Ycv5fNd4AeM',containment:'self',autoPlay:true, mute:true, startAt:0, opacity:1,mute: true,showControls:false}">
+</div>
+
+<style type="text/css">
+    /*================================
+        VIDEO SECTION STYLES
+    ==================================*/
+    #video-sec {
+        color: #fff;
+        text-align: center;
+    }
+
+    #video-sec .overlay {
+        background-color: rgba(0, 0, 0, 0.85);
+        min-height: 300px;
+        color: #fff;
+    }
+
+    #video-sec h1 {
+        padding-top: 80px;
+        font-size: 50px;
+        font-weight: 900;
+        padding-bottom: 30px;
+    }
+</style>
