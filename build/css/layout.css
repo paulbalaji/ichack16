@@ -700,7 +700,7 @@ ul.features li:nth-child(even) { }
     clear: both;
 }
 #mc_embed_signup input[type="submit"] {
-   float: right;
+   /*float: right;*/
    height: 60px;
    margin: 0;
    padding: 0 20px;
