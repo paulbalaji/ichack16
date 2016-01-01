@@ -55,7 +55,7 @@ body { background: #181d21; }
 header {
    height: 54px;
    width: 100%;
-   background: #13171B;
+   background: #21558f;
    position: fixed;
    left: 0;
    top: 0;
@@ -100,7 +100,7 @@ header .header-social li {
    margin-right: 20px;
 }
 header .header-social li a { color: #fff; }
-header .header-social li a:hover { color: #11ABB0; }
+header .header-social li a:hover { color: #2e8fff; }
 
 /* primary navigation
 --------------------------------------------------------------------- */
@@ -146,7 +146,8 @@ ul#nav li a {
    line-height: 38px;
 	text-decoration: none;
    text-align: left;
-   color: #58687A;
+   /*color: #58687A;*/
+   color: #fff;
 
 	-webkit-transition: color .2s ease-in-out;
 	-moz-transition: color .2s ease-in-out;
@@ -154,7 +155,7 @@ ul#nav li a {
 	-ms-transition: color .2s ease-in-out;
 	transition: color .2s ease-in-out;
 }
-ul#nav li a:hover { color: #fff; }
+ul#nav li a:hover { color: #2e8fff; }
 ul#nav li a:active { background-color: transparent !important; }
 ul#nav li.current a { color: #fff; }
 
@@ -198,7 +199,7 @@ ul#nav li.current a { color: #fff; }
    text-shadow: 0px 1px 4px rgba(0, 0, 0, .2);
 }
 .hero-text h1 span,
-.hero-text a { color: #11ABB0; }
+.hero-text a { color: #2e8fff; }
 .hero-text p {
    font: 16px/30px 'opensans-regular', sans-serif;
    padding: 0;
@@ -673,7 +674,7 @@ ul.features li:nth-child(even) { }
 }
 
 #subscribe a, #subscribe a:visited  { color: #fff; }
-#subscribe a:hover, #subscribe a:focus { color: #11ABB0; }
+#subscribe a:hover, #subscribe a:focus { color: #2e8fff; }
 
 #subscribe h1 { color: #fff; }
 #subscribe p {
@@ -730,6 +731,7 @@ footer {
    padding-top: 84px;
    margin-bottom: 60px;
    color: #3c4753;
+   background-color: #09182a;
    font-size: 13px;
    line-height: 24px;
    position: relative;   
@@ -827,7 +829,7 @@ footer .copyright {
    line-height: 60px;
  	border-radius: 100%;
 }
-#go-top a:hover { background: #0F9095; }
+#go-top a:hover { background: #2e8fff; }
 
 
 /* ------------------------------------------------------------------ */
@@ -926,7 +928,7 @@ footer .copyright {
 	box-shadow: 0 0 2.5em rgba( 0, 0, 0, .5 ); /* 40 */
 }
 a#imagelightbox-close { color: #333; }
-a#imagelightbox-close:hover, a#imagelightbox-close:focus { color: #11ABB0; }
+a#imagelightbox-close:hover, a#imagelightbox-close:focus { color: #2e8fff; }
 
 /* lightbox caption */
 #imagelightbox-caption {
