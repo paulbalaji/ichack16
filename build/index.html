@@ -80,13 +80,15 @@
 
    <!-- Homepage Hero
    ================================================== -->
-   <div style="position: fixed; width: 100%">
-     <iframe frameborder="0" width="100%"
-       src="https://youtube.com/embed/YPydEfw0wHE?autoplay=1&amp;controls=0&amp;showinfo=0&amp;autohide=1&amp;modestbranding=1&amp;disablekb=1&amp;loop=1&amp;playlist=YPydEfw0wHE">
-     </iframe>
-   </div>
 
    <section id="hero">
+      <!-- <div style="position: absolute; width: 100%">
+        <iframe frameborder="0" width="100%" 
+          src="https://youtube.com/embed/YPydEfw0wHE?autoplay=1&amp;controls=0&amp;showinfo=0&amp;autohide=1&amp;modestbranding=1&amp;disablekb=1&amp;loop=1&amp;playlist=YPydEfw0wHE">
+        </iframe>
+      </div> -->
+
+      <div id="header"></div>
 
 	   <div class="row">
 
@@ -126,7 +128,7 @@
    ================================================== -->
    <section id='features'>
       <center>
-      <h1>faq section right here - also, use this styling for each section</h1>
+      <h1>What is IC Hack?</h1>
       </center>
 
       <div class="row feature design">
@@ -206,7 +208,7 @@
 
       <center>
          <h1>
-            use this sort of weird button movement thingy if you can, but just for the button that links to the google form
+            Sign Up Now!
          </h1>
       </center>
 
@@ -231,11 +233,11 @@
 
             <div id="mc_embed_signup">
                   <div class="clear">
-                     <input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button">
+                     <input type="submit" value="Sign Up Now!" name="subscribe" id="mc-embedded-subscribe" class="button">
                   </div>
             </div>
 
-            <p><small>We never share your information or use it to spam you.</small></p>
+            <p><small>We'll never share your information, or use it to spam you.</small></p>
 
          </div>
 
@@ -381,18 +383,17 @@
    <!-- Testimonials Section
    ================================================== -->
    <section id="testimonials">
+      <center>
+         <h1>
+            What people are saying about us
+         </h1>
+      </center>
 
       <div class="row content">
 
          <span><i class="quote-left fa fa-quote-left"></i></span>
 
          <div class="text-container">
-
-            <div class="twelve columns">
-
-               <h1>We'll let the hackers speak for themselves</h1>
-
-            </div>
 
             <div class="twelve columns flex-container">
 
@@ -455,7 +456,7 @@
 
          <div class="three columns action">
 
-            <a href="#subscribe" class="button">Sign Up!</a>
+            <a href="#subscribe" class="button smoothscroll">Sign Up!</a>
 
          </div>
 
@@ -540,6 +541,35 @@
    <script src="js/imagelightbox.js"></script>
    <script src="js/jquery.prettyPhoto.js"></script>   
    <script src="js/main.js"></script>
+<!-- 
+   <script type="text/javascript">
+      $(document).ready(function () {
+         var totalImages = 22;
+         var currentIndex = 1;
+         setInterval(function () {
+           if (currentIndex == totalImages + 1) {
+               currentIndex = 1;
+           }
+           $("#hero").css('background', 'url("images/hero/' + currentIndex++ + '.jpg")');
+         }, 3000);
+      });
+   </script>
+ -->
+   <script type="text/javascript">
+      $(function () {
+         var m_Index = 1;
+         var changeBGSmooth = function () {
+            m_Index++;
+            if (m_Index > 22) m_Index = 0;
+            $("#hero").fadeOut(500, //Speed - (higher slower)
+            function () { //On fadeOut complete
+               $(this).css("background", 'url("images/hero/' + m_Index++ + '.jpg")') //Change BG
+               .fadeIn(); //FadeIn
+            });
+         };
+         setInterval(changeBGSmooth, 2000);
+      });
+   </script>
 
 </body>
 

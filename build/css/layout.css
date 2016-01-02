@@ -167,6 +167,8 @@ ul#nav li.current a { color: #fff; }
 #hero {
    padding-top: 66px;
    /*background: #23292f url(img/hero-bg.png);*/
+   /*background: #23292f url(img/falling.gif);*/
+   background: #1c2025;
    overflow: hidden;
 }
 
@@ -251,7 +253,7 @@ ul#nav li.current a { color: #fff; }
 /* ------------------------------------------------------------------ */
 
 #features {
-   background: #fff;
+   background: #fff url(img/grey.png);
    padding-top: 96px;
    padding-bottom: 78px;
    overflow: hidden;
@@ -551,11 +553,7 @@ ul.features li:nth-child(even) { }
    margin: 0 auto;
 }
 #testimonials h1 {
-   font: 16px/24px 'montserrat-bold', sans-serif;
-   color: #6AECF0;
-   text-transform: uppercase;
-   letter-spacing: 2px;   
-   margin-bottom: 36px;
+   color: #fff;
 }
 
 /*	Blockquotes */
@@ -578,7 +576,7 @@ ul.features li:nth-child(even) { }
    font-size: 12px;
    font-style: normal;
    line-height: 18px;
-   color: #fff;
+   color: #61aaff;
 }
 #testimonials blockquote cite:before { content: "\2014 \0020"; }
 #testimonials blockquote cite a,
@@ -670,7 +668,7 @@ ul.features li:nth-child(even) { }
 /* ------------------------------------------------------------------ */
 
 #subscribe {
-   background: #2e8fff;
+   background: #1c2025;
    padding-top: 96px;
    padding-bottom: 66px;
    overflow: hidden;
