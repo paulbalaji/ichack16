@@ -166,7 +166,7 @@ ul#nav li.current a { color: #fff; }
 
 #hero {
    padding-top: 66px;
-   background: #23292f url(img/hero-bg.png);
+   /*background: #23292f url(img/hero-bg.png);*/
    overflow: hidden;
 }
 
@@ -176,8 +176,8 @@ ul#nav li.current a { color: #fff; }
 (min-resolution: 192dpi) {
 
 	#hero { 
-		background: #23292f url(img/hero-bg_@2X.png); 
-		background-size: 200px 200px;
+		/*background: #23292f url(img/hero-bg_@2X.png); */
+		/*background-size: 200px 200px;*/
 	}
   
 }
@@ -198,6 +198,9 @@ ul#nav li.current a { color: #fff; }
    padding: 0;
    margin: 0;
    text-shadow: 0px 1px 4px rgba(0, 0, 0, .2);
+}
+.hero-text h3 {
+   color: #fff;
 }
 .hero-text h1 span,
 .hero-text a { color: #2e8fff; }
