@@ -55,7 +55,7 @@ body { background: #181d21; }
 header {
    height: 54px;
    width: 100%;
-   background: #21558f;
+   background: #000;
    position: fixed;
    left: 0;
    top: 0;
@@ -186,7 +186,8 @@ ul#nav li.current a { color: #fff; }
 
 /* Hero Text */
 .hero-text {
-	color: #676e73;
+	/*color: #676e73;*/
+   color: #fff;
    width: 83%;
    text-align: center;
    margin: 54px auto 24px auto;
@@ -666,7 +667,7 @@ ul.features li:nth-child(even) { }
 /* ------------------------------------------------------------------ */
 
 #subscribe {
-   background: #23292F;
+   background: #2e8fff;
    padding-top: 96px;
    padding-bottom: 66px;
    overflow: hidden;
@@ -731,7 +732,7 @@ footer {
    padding-top: 84px;
    margin-bottom: 60px;
    color: #3c4753;
-   background-color: #09182a;
+   /*background-color: #09182a;*/
    font-size: 13px;
    line-height: 24px;
    position: relative;   
