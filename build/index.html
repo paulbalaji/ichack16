@@ -88,8 +88,6 @@
         </iframe>
       </div> -->
 
-      <div id="header"></div>
-
 	   <div class="row">
 
 		   <div class="twelve columns">
@@ -559,12 +557,17 @@
       $(function () {
          var m_Index = 1;
          var changeBGSmooth = function () {
-            m_Index++;
-            if (m_Index > 22) m_Index = 0;
+            // $('#hero').css("background", '#000').fadeIn() //Change BG
+            // if (m_Index > 22) m_Index = 0;
+            // $('#hero').css("background", 'url("images/hero/' + m_Index++ + '.jpg")').fadeIn() //Change BG
+
+            if (m_Index > 22) m_Index = 1;
             $("#hero").fadeOut(500, //Speed - (higher slower)
-            function () { //On fadeOut complete
-               $(this).css("background", 'url("images/hero/' + m_Index++ + '.jpg")') //Change BG
-               .fadeIn(); //FadeIn
+               function () { //On fadeOut complete
+                  $(this).css("background", 'url("images/hero/' + m_Index++ + '.jpg")') //Change BG
+                  $(this).css("background-size", '100%')
+                  $(this).css("background-position", 'center')
+                  .fadeIn(); //FadeIn
             });
          };
          setInterval(changeBGSmooth, 2000);
