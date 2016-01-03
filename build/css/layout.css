@@ -159,7 +159,7 @@ ul#nav li a {
 	text-decoration: none;
    text-align: left;
    /*color: #58687A;*/
-   /*color: #fff;*/
+   color: #fff;
 
 	-webkit-transition: color .2s ease-in-out;
 	-moz-transition: color .2s ease-in-out;
