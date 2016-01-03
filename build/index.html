@@ -539,38 +539,22 @@
    <script src="js/imagelightbox.js"></script>
    <script src="js/jquery.prettyPhoto.js"></script>   
    <script src="js/main.js"></script>
-<!-- 
+
    <script type="text/javascript">
       $(document).ready(function () {
          var totalImages = 22;
          var currentIndex = 1;
+         var section = $("#hero");
          setInterval(function () {
-           if (currentIndex == totalImages + 1) {
+            if (currentIndex == totalImages + 1) {
                currentIndex = 1;
-           }
-           $("#hero").css('background', 'url("images/hero/' + currentIndex++ + '.jpg")');
+            }
+            $(section).css('background', 'url("images/hero/' + currentIndex++ + '.jpg")');
+            $(section).css("background-size", '100%');
+            $(section).css("background-position", 'center');
+            $(section).css('padding-top', '66px');
+            $(section).css('transition', 'background 1s linear');
          }, 3000);
-      });
-   </script>
- -->
-   <script type="text/javascript">
-      $(function () {
-         var m_Index = 1;
-         var changeBGSmooth = function () {
-            // $('#hero').css("background", '#000').fadeIn() //Change BG
-            // if (m_Index > 22) m_Index = 0;
-            // $('#hero').css("background", 'url("images/hero/' + m_Index++ + '.jpg")').fadeIn() //Change BG
-
-            if (m_Index > 22) m_Index = 1;
-            $("#hero").fadeOut(500, //Speed - (higher slower)
-               function () { //On fadeOut complete
-                  $(this).css("background", 'url("images/hero/' + m_Index++ + '.jpg")') //Change BG
-                  $(this).css("background-size", '100%')
-                  $(this).css("background-position", 'center')
-                  .fadeIn(); //FadeIn
-            });
-         };
-         setInterval(changeBGSmooth, 2000);
       });
    </script>
 
