@@ -22,13 +22,23 @@
 
 ===================================================================== */
 
+/*primary colour templates, primary === #21558f*/
+hr.primary {
+    margin: 25px auto 30px;
+    padding: 0;
+    max-width: 250px;
+    border: 0;
+    border-top: solid 5px;
+    text-align: center;
 
+    border-color: #000;
+}
 
 /* ------------------------------------------------------------------ */
 /* a. General and Common Styles
 /* ------------------------------------------------------------------ */
 
-body { background: #181d21; }
+body { background: #000; }
 
 .section-head {
   	padding: 0 4%;
@@ -149,7 +159,7 @@ ul#nav li a {
 	text-decoration: none;
    text-align: left;
    /*color: #58687A;*/
-   color: #fff;
+   /*color: #fff;*/
 
 	-webkit-transition: color .2s ease-in-out;
 	-moz-transition: color .2s ease-in-out;
@@ -158,8 +168,8 @@ ul#nav li a {
 	transition: color .2s ease-in-out;
 }
 ul#nav li a:hover { color: #2e8fff; }
-ul#nav li a:active { background-color: transparent !important; }
-ul#nav li.current a { color: #fff; }
+ul#nav li a:active { color: #2e8fff; }
+ul#nav li.current a { color: #2e8fff; }
 
 
 /* ------------------------------------------------------------------ */
@@ -751,14 +761,15 @@ ul.features li:nth-child(even) { }
 footer {
    padding-top: 84px;
    margin-bottom: 60px;
-   color: #3c4753;
-   /*background-color: #09182a;*/
+   /*color: #3c4753;*/
+   color: #606060;
+   background-color: #000;
    font-size: 13px;
    line-height: 24px;
    position: relative;   
 }
 
-footer a, footer a:visited { color: #0A6567; }
+footer a, footer a:visited { color: #606060; }
 footer a:hover, footer a:focus { color: #fff; }
 
 footer .info { padding-right: 90px; }
@@ -770,8 +781,9 @@ footer .footer-logo a {
    margin-left: 3px;
 }
 footer .footer-logo a img {
-   height: 24px;
-   width: 92px;
+   /*height: 24px;*/
+   /*width: 92px;*/
+   width: 50%;
 }
 
 footer .right-cols .columns {
@@ -811,7 +823,7 @@ footer ul li {
    line-height: 24px;
 }
 footer ul li a,
-footer ul li a:visited { color: #3c4753; }
+footer ul li a:visited { color: #606060; }
 footer ul li a:hover,
 footer ul li a:focus { color: #fff; }
 
@@ -850,7 +862,7 @@ footer .copyright {
    line-height: 60px;
  	border-radius: 100%;
 }
-#go-top a:hover { background: #2e8fff; }
+#go-top a:hover { background: #21558f; }
 
 
 /* ------------------------------------------------------------------ */
