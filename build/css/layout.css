@@ -259,11 +259,23 @@ ul#nav li.current a { color: #fff; }
 /* ------------------------------------------------------------------ */
 
 #features {
-   background: #fff url(img/grey.png);
+   background: #fff url(img/light_wool.png);
    padding-top: 96px;
    padding-bottom: 78px;
    overflow: hidden;
 }
+/* For high-res devices */
+@media
+(-webkit-min-device-pixel-ratio: 2),
+(min-resolution: 192dpi) {
+
+   #features { 
+      background: #23292f url(img/light_wool_@2X.png); 
+      background-size: 200px 200px;
+   }
+  
+}
+
 #features .feature {
    margin-top: 30px;
    margin-bottom: 54px;
@@ -473,7 +485,8 @@ ul.features li:nth-child(even) { }
 /* ------------------------------------------------------------------ */
 
 #call-to-action {
-   background: #23292F;
+   /*background: #23292F;*/
+   background: #1c2025 url(img/lodyas.png);
    padding-top: 72px;
    padding-bottom: 48px;
 }
@@ -674,7 +687,7 @@ ul.features li:nth-child(even) { }
 /* ------------------------------------------------------------------ */
 
 #subscribe {
-   background: #1c2025;
+   background: #1c2025 url(img/lodyas.png);
    padding-top: 96px;
    padding-bottom: 66px;
    overflow: hidden;

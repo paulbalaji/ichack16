@@ -10,4 +10,4 @@ deploy:
 
 
 resize_images:
-	find ./build/images/hero -name "*.jpg" -o -name "*.png" | while read line ; do mogrify -verbose -resize '1200x1200>' "$$line" ; done
+	find ./build/images/whatis -name "*.jpg" -o -name "*.png" | while read line ; do mogrify -verbose -resize '800x800>' "$$line" ; done
