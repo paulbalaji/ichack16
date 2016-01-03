@@ -543,11 +543,11 @@
    <script type="text/javascript">
       $(document).ready(function () {
          var totalImages = 22;
-         var currentIndex = 1;
+         var currentIndex = 22;
          var section = $("#hero");
          setInterval(function () {
             if (currentIndex == totalImages + 1) {
-               currentIndex = 1;
+               currentIndex = 2;
             }
             $(section).css('background', 'url("images/hero/' + currentIndex++ + '.jpg")');
             $(section).css("background-size", 'cover');
