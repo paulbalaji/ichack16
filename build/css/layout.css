@@ -171,11 +171,11 @@ ul#nav li.current a { color: #fff; }
    /*background: #23292f url(img/hero-bg.png);*/
    /*background: #23292f url(img/falling.gif);*/
    background: url(../images/hero/22.jpg);
+   background-color: rgba(0, 0, 0, 0.7);
    background-size: 100%;
    background-position: center;
    transition: background 1s linear;
    overflow: hidden;
-   width: 100%;
 }
 
 /* For high-res devices */
