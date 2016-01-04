@@ -207,6 +207,8 @@ ul#nav li a:hover { color: #b2b2b2; }
    background-position: center;
    -webkit-transition: background 1s linear;
    -moz-transition: background 1s linear;
+   -o-transition: background 1s linear;
+   -ms-transition: background 1s linear;
    transition: background 1s linear;
    overflow: hidden;
 }
