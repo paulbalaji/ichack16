@@ -43,6 +43,7 @@ hr.primary {
 
 .vidThumb15:hover {
    opacity: 0.9;
+   width: 83%;
    -webkit-transition: all ease .5s;
    -moz-transition: all ease .5s;
    transition: all ease .5s;
