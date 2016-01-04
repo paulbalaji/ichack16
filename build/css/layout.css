@@ -112,7 +112,13 @@ header .header-social li {
    margin-right: 20px;
 }
 header .header-social li a { color: #fff; }
-header .header-social li a:hover { color: #2e8fff; }
+header .header-social li a:hover { color: #b2b2b2; }
+
+header .header-social li a:hover .facebook { color: #3b5998; }
+header .header-social li a:hover .twitter { color: #55acee; }
+header .header-social li a:hover .github { color: #b2b2b2; }
+header .header-social li a:hover .docsoc { color: #21558f; }
+
 
 /* primary navigation
 --------------------------------------------------------------------- */
@@ -125,9 +131,9 @@ header .header-social li a:hover { color: #2e8fff; }
 
 /* nav-wrap */
 #nav-wrap {
-   font: 11px 'montserrat-regular', sans-serif;
+   font: 14px 'montserrat-regular', sans-serif;
    text-transform: uppercase;
-   letter-spacing: 1.5px;
+   letter-spacing: 1.2px;
    float: left;
 }
 
@@ -167,9 +173,10 @@ ul#nav li a {
 	-ms-transition: color .2s ease-in-out;
 	transition: color .2s ease-in-out;
 }
-ul#nav li a:hover { color: #2e8fff; }
-ul#nav li a:active { color: #2e8fff; }
-ul#nav li.current a { color: #2e8fff; }
+ul#nav li a:active { color: #fff; }
+ul#nav li.current a { color: #fff; }
+
+ul#nav li a:hover { color: #b2b2b2; }
 
 
 /* ------------------------------------------------------------------ */
@@ -849,7 +856,8 @@ footer .copyright {
 	display: block;
 	width: 60px;
 	height: 60px;
-	background: #525252;
+	/*background: #525252;*/
+   background: #fff;
 
 	-webkit-transition: all 0.2s ease-in-out;
    -moz-transition: all 0.2s ease-in-out;
@@ -857,12 +865,12 @@ footer .copyright {
    -ms-transition: all 0.2s ease-in-out;
    transition: all 0.2s ease-in-out;
 
-   color: #fff;
+   color: #21558f;
    font-size: 21px;
    line-height: 60px;
  	border-radius: 100%;
 }
-#go-top a:hover { background: #21558f; }
+#go-top a:hover { background: #21558f; color: #fff;}
 
 
 /* ------------------------------------------------------------------ */
