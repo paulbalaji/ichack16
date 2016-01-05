@@ -1,0 +1,4 @@
+[
+  "src/js/vendor/jquery/jquery.js",
+  "src/js/vendor/requirejs/require.js"
+]

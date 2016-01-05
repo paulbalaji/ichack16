@@ -1,0 +1,62 @@
+{
+  "shims": {
+    "/js/bootstrap.js": {
+      "vendor/jquery.fullPage/jquery.fullPage": [
+        "jquery"
+      ]
+    }
+  },
+  "deps": {
+    "/js/app/scroll.js": [
+      "require",
+      "exports",
+      "module",
+      "jquery",
+      "vendor/jquery.fullPage/jquery.fullPage"
+    ],
+    "/js/app/signup.js": [
+      "require",
+      "exports",
+      "module",
+      "jquery"
+    ],
+    "/js/app/twitter.js": [
+      "require",
+      "exports",
+      "module",
+      "jquery"
+    ],
+    "/js/bootstrap.js": [
+      "jquery",
+      "vendor/jquery.fullPage/jquery.fullPage",
+      "vendor/twitterfetcher/twitterfetcher",
+      "app/scroll",
+      "app/signup",
+      "app/twitter"
+    ]
+  },
+  "aliases": {
+    "/js/bootstrap.js": {
+      "jquery": "vendor/jquery/jquery"
+    }
+  },
+  "mappings": {
+    "/js/bootstrap.js": null
+  },
+  "packages": {
+    "/js/bootstrap.js": null
+  },
+  "originalConfig": {
+    "shim": {
+      "vendor/jquery.fullPage/jquery.fullPage": [
+        "jquery"
+      ]
+    },
+    "paths": {
+      "jquery": "vendor/jquery/jquery"
+    }
+  },
+  "requireFiles": [
+    "/js/bootstrap.js"
+  ]
+}
