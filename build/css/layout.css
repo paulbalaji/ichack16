@@ -200,10 +200,8 @@ ul#nav li a:hover { color: #b2b2b2; }
 
 #hero {
    padding-top: 66px;
-   /*background: #23292f url(img/hero-bg.png);*/
-   /*background: #23292f url(img/falling.gif);*/
-   background: url(../images/loading_hero.gif);
-   background-color: rgba(0, 0, 0, 0.7);
+   background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../images/loading_hero.gif);
+   /*background-color: rgba(0, 0, 0, 0.7);*/
    background-size: 100%;
    background-repeat: no-repeat;
    background-position: center;
