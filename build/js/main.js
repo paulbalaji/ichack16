@@ -119,21 +119,21 @@
    /*----------------------------------------------------*/
   	/* Waypoints Animations
    ------------------------------------------------------ */
-  	$('.js .design').waypoint(function() {
-   	$('.js .design .feature-media').addClass( 'animated flipInX' );    
-  	}, { offset: 'bottom-in-view' });
+  	// $('.js .design').waypoint(function() {
+   // 	$('.js .design .feature-media').addClass( 'animated pulse' );    
+  	// }, { offset: 'bottom-in-view' });
 
-  	$('.js .responsive').waypoint(function() {
-   	$('.js .responsive .feature-media').addClass( 'animated flipInX' );    
-  	}, { offset: 'bottom-in-view' });
+  	// $('.js .responsive').waypoint(function() {
+   // 	$('.js .responsive .feature-media').addClass( 'animated pulse' );    
+  	// }, { offset: 'bottom-in-view' });
 
-  	$('.js .cross-browser').waypoint(function() {
-   	$('.js .cross-browser .feature-media').addClass( 'animated flipInX' ); 
-  	}, { offset: 'bottom-in-view' });
+  	// $('.js .cross-browser').waypoint(function() {
+   // 	$('.js .cross-browser .feature-media').addClass( 'animated pulse' ); 
+  	// }, { offset: 'bottom-in-view' });
 
-  	$('.js .video').waypoint(function() {
-   	$('.js .video .feature-media').addClass( 'animated flipInX' );     
-  	}, { offset: 'bottom-in-view' });
+  	// $('.js .video').waypoint(function() {
+   // 	$('.js .video .feature-media').addClass( 'animated pulse' );     
+  	// }, { offset: 'bottom-in-view' });
 
   	$('.js #subscribe').waypoint(function() {
    	$('.js #subscribe input[type="email"]').addClass( 'animated fadeInLeftBig show' ); 
