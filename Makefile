@@ -1,14 +1,14 @@
-default: deploy
+default: temp-deploy
 
-deploy:
-	@rm -rf ../paulbalaji.github.io/* && \
-	cp -r ./build/* ../paulbalaji.github.io && \
+temp-deploy:
+	@rm -rf ../paulbalaji.github.io/ichack/* && \
+	cp -r ./build/* ../paulbalaji.github.io/ichack && \
 	cd ../paulbalaji.github.io && \
 	git add --all && \
 	git commit -m "Deploy" && \
 	git push
 
-final-deploy:
+deploy:
 	@echo "[x] Building and deploying application..."
 	mkdir deploy && \
 	cp -r ./build/* ./deploy && \
