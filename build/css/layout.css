@@ -554,13 +554,15 @@ ul.features li:nth-child(even) { }
    color: inherit;
 }
 #call-to-action p {
-   color: #697B8B; 
+   /*color: #697B8B;*/
+   color: #cccccc;
    font-size: 17px; 
    padding-right: 5px; 
 }
 #call-to-action p span {
 	font-family: 'opensans-semibold', sans-serif; 
-	color: #A9B5C0;
+	/*color: #A9B5C0;*/
+   color: #fff;
 }
 
 
