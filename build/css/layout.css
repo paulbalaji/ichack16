@@ -21,6 +21,16 @@
    todo: check bug in mobile z-index
 
 ===================================================================== */
+#mlh-trust-badge {
+   position: fixed;
+   margin-top: 50px;
+   right: 50px;
+   max-width: 100px;
+   width: 10%;
+   min-width: 60px;
+   display: block;
+   z-index: 100;
+}
 
 .sponsor-us-text {
    color: #222;

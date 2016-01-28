@@ -21,4 +21,4 @@ deploy:
 	rm -rf deploy
 
 resize_images:
-	find ./build/images/hero -name "*.jpg" -o -name "*.png" | while read line ; do mogrify -verbose -resize '1000x1000>' "$$line" ; done
+	find ./build/images/sponsors -name "*.jpg" -o -name "*.png" | while read line ; do mogrify -verbose -resize '1000x1000>' "$$line" ; done
