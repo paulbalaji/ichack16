@@ -17,7 +17,8 @@ deploy:
 	git add --all && \
 	git commit -m "Deploy" && \
 	git push "git@github.com:icdocsoc/ichack.org.git" master:gh-pages --force && \
-	rm -rf .git
+	rm -rf .git && \
+	cd .. && \
 	rm -rf deploy
 
 resize_images:
