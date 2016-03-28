@@ -1,2 +1,1 @@
-###get feedback
-* implement feedback
+2016 IC Hack Website
